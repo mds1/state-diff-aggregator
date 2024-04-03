@@ -1,0 +1,18 @@
+{
+	"name": "state-diff-aggregator",
+	"module": "index.ts",
+	"type": "module",
+	"scripts": {
+		"check": "bunx @biomejs/biome check --apply .",
+		"fmt": "bunx @biomejs/biome format . --write",
+		"lint": "bunx @biomejs/biome lint ."
+	},
+	"dependencies": { "viem": "^2.9.8" },
+	"devDependencies": {
+		"@biomejs/biome": "1.6.4",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
+}
